@@ -2,6 +2,7 @@
 - unique.js is to remove duplicate obj from an Array by obj's value
   
 # How to use
+- First Way
 ```
 let b = [
   {
@@ -27,4 +28,9 @@ let b = [
 ];
 console.log(unique(b, "key"));
 console.log(unique(b, "value"));
+```
+- Second Way
+
+```
+console.log(b.unique("key").unique("value"));
 ```
